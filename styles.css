@@ -1,9 +1,43 @@
-.moveliner {
-  margin: 0 auto;
+body {
+  background-color: #e5dfd1;
+  margin: 1em auto;
+  text-align: center;
   font-size: 18px;
-  width: 10em;
+  font-family: 'helvetica neue', 'sans-serif';
+  font-weight: 200;
+  color: #544c3d;
+  text-align:center;
+}
+
+.moveliner {
+  width: 20em;
   border-radius: 5px;
   border: 1px solid black;
+  margin: auto;
   text-align: center;
   padding: 1em;
+  background-color: #d3c4a9;
+}
+
+.headshot {
+  border-radius: inherit;
+  height: 9em;
+}
+
+.name {
+
+}
+
+.title {
+
+}
+
+.btn {
+  background-color: #c43c0d;
+  color: white;
+  border-radius: inherit;
+  border: none;
+  font-size: inherit;
+  padding: .66em 1em;
+  cursor: pointer;
 }

@@ -2,9 +2,9 @@ var app = angular.module('app', []);
 
 app.controller('ContactsCtrl', function($scope) {
   $scope.moveliners = [
-    {name: 'Adam', title: 'Director, Thought Engineering'},
-    {name: 'Brittany', title: 'Lead Whisperer, Cat Rescue League'},
-    {name: 'Russell', title: 'Owner, Javascript n\' Drink of Brooklyn'}
+    {name: 'Brittany', title: 'Move Captain', img_title: 'brittany-seaton'},
+    {name: 'Russell', title: 'Move Navigator', img_title: 'russell-matney'},
+    {name: 'Adam', title: 'Driver, Foreman', img_title: 'adam-gibbons'}
   ];
 });
 
@@ -13,7 +13,7 @@ app.directive('mvlnContacts', function() {
     restrict: 'EA',
     templateUrl: './moveliner.html',
     scope: {
-      contacts: '=contacts'
+      contacts: '='
     },
     link: function(scope, element, attributes) {
       scope.contact = scope.contacts[0];
