@@ -1,0 +1,9 @@
+.moveliner {
+  margin: 0 auto;
+  font-size: 18px;
+  width: 10em;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1em;
+}
