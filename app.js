@@ -18,7 +18,7 @@ app.directive('mvlnContacts', function() {
     link: function(scope, element, attributes) {
       scope.contact = scope.contacts[0];
 
-      element.bind('buton').bind('click', function() {
+      element.find('button').bind('click', function() {
         if (scope.contact == scope.contacts[scope.contacts.length - 1]) {
           scope.$apply(function() { scope.contact = scope.contacts[0]; });
         } else {
