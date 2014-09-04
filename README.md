@@ -1,6 +1,6 @@
 # How to build directives in Angular.js, Part 1
 
-This repo accompanies a tutorial on building Angular.js directives. You can read that tutorial at product.moveline.com/angular-directive-part-1.html.
+This repo accompanies a tutorial on building Angular.js directives. You can read that tutorial at http://product.moveline.com/angular-directive-part-1.html.
 
 ## Objectives &amp; outcomes
 By the end of this lesson, you will 1) know how to buid a basic Angular.js directive, and 2) have a conceptual understanding of what a directive is and how it relates to DOM model.
