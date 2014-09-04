@@ -1,12 +1,13 @@
 # How to build directives in Angular.js, Part 1
 
-This repo accompanies a tutorial on building Angular.js directives. You can read that tutorial at http://product.moveline.com/angular-directive-part-1.html.
+This repo accompanies a tutorial on building Angular.js directives. Read that tutorial here:
+http://product.moveline.com/angular-directive-part-1.html
 
 ## Objectives &amp; outcomes
 By the end of this lesson, you will 1) know how to buid a basic Angular.js directive, and 2) have a conceptual understanding of what a directive is and how it relates to DOM model.
 
-- Demo:
-- Code: 
+- [Demo the final product](http://agibbons.com/tutorials/angular-directives-part-1/)
+- [View this code on Github](https://github.com/moveline/angular-directives-tutorial-1)
 
 ## The problem
 Our typical customer has more than one point of contact within our company, Moveline. So, once a customer logs into our web app, we’d like to display those contacts in a friendly little sidebar widget. We’ll be using this widget across multiple views, so we need to build something that’s modular and encapsulated - something that reduces to a line or two of code that you can drop anywhere and trust that it’ll work. Sounds like the perfect use-case for a directive!
@@ -153,5 +154,5 @@ We're almost done. Last thing we need to do is create that that HTML template th
 
 And that's it! In case you missed it up top, here's the code and a working demo of this tutorial. Look for Part 2 coming soon.
 
-- Demo: 
-- Code: 
+- [Demo the final product](http://agibbons.com/tutorials/angular-directives-part-1/)
+- [View this code on Github](https://github.com/moveline/angular-directives-tutorial-1)
