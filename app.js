@@ -17,13 +17,16 @@ app.directive('mvlnContacts', function() {
     },
     link: function(scope, element, attributes) {
       scope.contact = scope.contacts[0];
-      scope.next = function() {
+
+      element.bind('buton').bind('click', function() {
         if (scope.contact == scope.contacts[scope.contacts.length - 1]) {
-          scope.contact = scope.contacts[0];
+          scope.$apply(function() { scope.contact = scope.contacts[0]; });
         } else {
-          scope.contact = scope.contacts[scope.contacts.indexOf(scope.contact) + 1]
+          scope.$apply(function() {
+            scope.contact = scope.contacts[scope.contacts.indexOf(scope.contact) + 1];
+          });
         }
-      };
+      });
     }
   }
 });
