@@ -15,16 +15,14 @@ app.directive('mvlnContacts', function() {
     scope: {
       contacts: '='
     },
-    link: function(scope, element, attributes) {
+    link: function next(scope, element, attributes) {
       scope.contact = scope.contacts[0];
 
       element.find('button').bind('click', function() {
         if (scope.contact == scope.contacts[scope.contacts.length - 1]) {
-          scope.$apply(function() { scope.contact = scope.contacts[0]; });
+          scope.contact = scope.contacts[0];
         } else {
-          scope.$apply(function() {
-            scope.contact = scope.contacts[scope.contacts.indexOf(scope.contact) + 1];
-          });
+          scope.contact = scope.contacts[scope.contacts.indexOf(scope.contact) + 1];
         }
       });
     }
