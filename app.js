@@ -15,7 +15,7 @@ app.directive('mvlnContacts', function() {
     scope: {
       contacts: '='
     },
-    link: function next(scope, element, attributes) {
+    link: function(scope, element, attributes) {
       scope.contact = scope.contacts[0];
 
       element.find('button').bind('click', function() {
